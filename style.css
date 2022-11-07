@@ -1,0 +1,26 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Fira code';
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 25px;
+}
+#value {
+    font-size: 60px;
+}
+.button-container {
+    display: flex;
+    column-gap: 25px;
+}
+.btn {
+    padding: 14px 28px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
